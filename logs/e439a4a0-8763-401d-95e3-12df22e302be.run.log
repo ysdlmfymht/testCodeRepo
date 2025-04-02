@@ -1,0 +1,159 @@
+2025-04-02 16:41:02.147 | INFO | run step begin: movie_search >>>>>>
+2025-04-02 16:41:02.148 | DEBUG | ====== request details ======
+url: https://search.douban.com/movie/subject_search
+method: GET
+params: {
+    "cat": "1002",
+    "search_text": "liudehua"
+}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-User": "?1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Microsoft Edge\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "HRUN-Request-ID": "HRUN-e439a4a0-8763-401d-95e3-12df22e302be-262148"
+}
+json: None
+
+2025-04-02 16:41:02.850 | DEBUG | client IP: 127.0.0.1, Port: 54446
+2025-04-02 16:41:02.850 | DEBUG | server IP: 127.0.0.1, Port: 8888
+2025-04-02 16:41:02.851 | DEBUG | 
+================== request details ==================
+method   : MethodEnum.GET
+url      : https://search.douban.com/movie/subject_search?cat=1002&search_text=liudehua
+headers  : {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-User": "?1",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Microsoft Edge\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "HRUN-Request-ID": "HRUN-e439a4a0-8763-401d-95e3-12df22e302be-262148"
+}
+cookies  : {}
+body     : None
+
+2025-04-02 16:41:02.851 | DEBUG | 
+================== response details ==================
+status_code : 302
+headers  : {
+    "Date": "Wed, 02 Apr 2025 08:41:02 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Keep-Alive": "timeout=30",
+    "Location": "https://sec.douban.com/b?r=https%3A%2F%2Fsearch.douban.com%2Fmovie%2Fsubject_search%3Fcat%3D1002%26search_text%3Dliudehua",
+    "Set-Cookie": "bid=ZahYm-4CgqU; Expires=Thu, 02-Apr-26 08:41:02 GMT; Domain=.douban.com; Path=/",
+    "X-DOUBAN-NEWBID": "ZahYm-4CgqU",
+    "Server": "dae",
+    "Strict-Transport-Security": "max-age=15552000",
+    "X-Content-Type-Options": "nosniff"
+}
+cookies  : {
+    "bid": "ZahYm-4CgqU"
+}
+encoding : ISO-8859-1
+content_type : text/html
+body     : <html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+2025-04-02 16:41:02.851 | DEBUG | 
+================== request details ==================
+method   : MethodEnum.GET
+url      : https://sec.douban.com/b?r=https%3A%2F%2Fsearch.douban.com%2Fmovie%2Fsubject_search%3Fcat%3D1002%26search_text%3Dliudehua
+headers  : {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-User": "?1",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Microsoft Edge\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "HRUN-Request-ID": "HRUN-e439a4a0-8763-401d-95e3-12df22e302be-262148",
+    "Cookie": "bid=ZahYm-4CgqU"
+}
+cookies  : {
+    "bid": "ZahYm-4CgqU"
+}
+body     : None
+
+2025-04-02 16:41:02.852 | DEBUG | 
+================== response details ==================
+status_code : 403
+headers  : {
+    "Date": "Wed, 02 Apr 2025 08:41:02 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Keep-Alive": "timeout=30",
+    "Server": "dae",
+    "Content-Encoding": "br"
+}
+cookies  : {}
+encoding : utf-8
+content_type : text/html; charset=utf-8
+body     : <html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>¶¹°ê - µÇÂ¼Ìø×ªÒ³</title>
+    <style type="text/css">
+        body{font-family:Arial,Helvetica,sans-serif;font-size:14px;}
+        h1{font-size:25px;margin:25px 0 10px 0;}
+    </style>
+</head>
+<body>
+    <div>
+        <div style="margin:20px auto;">
+            <div style="font-size:25px;color:#1b9336;border-bottom:5px solid #eef9eb">
+            ... OMITTED 522 CHARACTORS ...
+
+2025-04-02 16:41:02.852 | ERROR | 403 Client Error: Forbidden for url: https://sec.douban.com/b?r=https%3A%2F%2Fsearch.douban.com%2Fmovie%2Fsubject_search%3Fcat%3D1002%26search_text%3Dliudehua
+2025-04-02 16:41:02.855 | DEBUG | ====== response details ======
+status_code: 403
+headers: {
+    "Date": "Wed, 02 Apr 2025 08:41:02 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Keep-Alive": "timeout=30",
+    "Server": "dae",
+    "Content-Encoding": "br"
+}
+body: b'<html>\n<head>\n    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n    <meta name="viewport" content="width=device-width, initial-scale=1">\n    <title>\xe8\xb1\x86\xe7\x93\xa3 - \xe7\x99\xbb\xe5\xbd\x95\xe8\xb7\xb3\xe8\xbd\xac\xe9\xa1\xb5</title>\n    <style type="text/css">\n        body{font-family:Arial,Helvetica,sans-serif;font-size:14px;}\n        h1{font-size:25px;margin:25px 0 10px 0;}\n    </style>\n</head>\n<body>\n    <div>\n        <div style="margin:20px auto;">\n            <div style="font-size:25px;color:#1b9336;border-bottom:5px solid #eef9eb ... OMITTED 584 CHARACTORS ...'
+
+2025-04-02 16:41:02.855 | ERROR | assert status_code equal 200(int)	==> fail
+check_item: status_code
+check_value: 403(int)
+assert_method: equal
+expect_value: 200(int)
+2025-04-02 16:41:02.856 | ERROR | assert headers."Content-Type" equal text/html(str)	==> fail
+check_item: headers."Content-Type"
+check_value: text/html; charset=utf-8(str)
+assert_method: equal
+expect_value: text/html(str)
+2025-04-02 16:41:02.857 | INFO | generate testcase log: C:\Users\lxd\PycharmProjects\pythonProject\logs\e439a4a0-8763-401d-95e3-12df22e302be.run.log

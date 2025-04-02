@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","672","test_demo1","api","Mon Mar 31 09:37:26 CST 2025","passed","Mon Mar 31 09:37:26 CST 2025","TestProject","api_test","",""
+"","306","test_demo1","api","Thu Apr 03 13:51:39 CST 2025","failed","Thu Apr 03 13:51:39 CST 2025","TestProject","api_test","",""
