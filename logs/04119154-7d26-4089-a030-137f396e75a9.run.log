@@ -1,0 +1,373 @@
+2025-04-02 15:08:04.466 | INFO | run step begin: /ait/config/cms/list >>>>>>
+2025-04-02 15:08:04.467 | DEBUG | ====== request details ======
+url: https://fanyi.baidu.com/ait/config/cms/list
+method: GET
+params: {
+    "date": "1743576063699?_=1743576063699",
+    "ids": "621,479,272,276,152,629,650,663,689,690"
+}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Microsoft Edge\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "HRUN-Request-ID": "HRUN-04119154-7d26-4089-a030-137f396e75a9-684467"
+}
+json: None
+
+2025-04-02 15:08:05.157 | DEBUG | client IP: 192.168.3.240, Port: 50050
+2025-04-02 15:08:05.157 | DEBUG | server IP: 124.237.208.247, Port: 443
+2025-04-02 15:08:05.158 | DEBUG | 
+================== request details ==================
+method   : MethodEnum.GET
+url      : https://fanyi.baidu.com/ait/config/cms/list?date=1743576063699%3F_%3D1743576063699&ids=621%2C479%2C272%2C276%2C152%2C629%2C650%2C663%2C689%2C690
+headers  : {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Microsoft Edge\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "HRUN-Request-ID": "HRUN-04119154-7d26-4089-a030-137f396e75a9-684467"
+}
+cookies  : {}
+body     : None
+
+2025-04-02 15:08:05.221 | DEBUG | 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Content-Length": "3166",
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 02 Apr 2025 07:08:05 GMT"
+}
+cookies  : {}
+encoding : utf-8
+content_type : application/json; charset=utf-8
+body     : {
+    "errno": 0,
+    "errmsg": "",
+    "data": {
+        "items": [
+            {
+                "id": 621,
+                "value": []
+            },
+            {
+                "id": 272,
+                "value": {
+                    "appData": {
+                        "dataLeft": "100,000,000+ 次下载",
+                        "dataRight": "300,000+ 5星好评"
+                    },
+                    "appFunc": "不仅仅是翻译！",
+                    "appQr": "https://fanyiapp.cdn.bcebos.com/cms/image/8a3076b46fdcced0fd12efc9b417059e.png",
+                    "appText": "App Store及各大手机应用商店搜索“百度翻译”均可下载",
+                    "appTitle": "百度翻译APP 10.0",
+                    "appVersion": "12.1.8",
+                    "btnLink": "",
+                    "btnText": "我知道了",
+                    "cmsList": [
+                        {
+                            "bgMaskColor": "rgba(0, 0, 0, 0.6)",
+                            "end_time": "2025-03-31 23:59:59",
+                            "imgUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/1abf8c3956cecc5b3f410a434920679c.png",
+                            "imgwidth": 600,
+                            "maxCount": "3",
+                            "start_time": "2025-03-13 00:00:00",
+                            "type": 1,
+                            "urlLink": "https://fanyi.baidu.com/mtpe-individual/paperActivity2025#/",
+                            "version": "2.1"
+                        },
+                        {
+                            "bgMaskColor": "rgba(0, 0, 0, 0.6)",
+                            "end_time": "2024-12-20 23:59:59",
+                            "imgUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/ed04d084716a73b24d57d1b11300744e.png",
+                            "imgwidth": 600,
+                            "maxCount": "10",
+                            "start_time": "2024-12-09 10:00:00",
+                            "type": 2,
+                            "urlLink": "https://fanyi-app.baidu.com/static/react-activity/page/schoolbegins2024.html",
+                            "version": "1.2"
+                        }
+                    ],
+                    "desc": [
+                        "百度翻译svip ",
+                        "酷我vip",
+                        "百度网盘vip"
+                    ],
+                    "end_time": "2022-03-31 23:59:59",
+                    "expertDate": {
+                        "content": "春节不打烊，服务正常接单！1月28-31日可放心下单，2月1日起统一处理。极速交付，品质如初 ！",
+                        "end_time": "2025-01-31 23:59:59",
+                        "start_time": "2025-01-28 00:00:00"
+                    },
+                    "imgSrc": [
+                        "https://fanyiapp.cdn.bcebos.com/cms/image/29fc26ebd595ee7eefe996250444c045.png"
+                    ],
+                    "isShow": "0",
+                    "recordList": [
+                        {
+                            "content": "「年终回馈」大礼包       点此可兑换全部权益",
+                            "end_time": "2024-12-27 23:59:59",
+                            "start_time": "2024-12-20 14:00:00",
+                            "type": 1,
+                            "urlLink": "https://fanyi-app.baidu.com/static/react-activity/page/schoolbegins2024.html#/"
+                        }
+                    ],
+                    "relatedLowFlow": "",
+                    "start_time": "2022-03-13 11:00:00",
+                    "title": [
+                        " AI 翻译",
+                        "尝鲜体验"
+                    ],
+                    "v3BgMaskColor": "rgba(0, 0, 0, 0.6)",
+                    "v3ImgUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/1abf8c3956cecc5b3f410a434920679c.png",
+                    "v3ImgUrlLink": "https://fanyi.baidu.com/mtpe-individual/paperActivity2025#/ ",
+                    "v3Imgwidth": "624px",
+                    "version": 4
+                }
+            },
+            {
+                "id": 152,
+                "value": []
+            },
+            {
+                "id": 629,
+                "value": []
+            },
+            {
+                "id": 663,
+                "value": []
+            },
+            {
+                "id": 690,
+                "value": {
+                    "expertPaperCouponConfig": {
+                        "descFrText": {
+                            "active": "38元畅翻论文摘要",
+                            "default": "57元畅翻论文摘要"
+                        },
+                        "descFrfile": {
+                            "active": "38元畅翻论文摘要 试试AI+人工翻译"
+                        },
+                        "endTime": "2025-04-01 00:00:00",
+                        "payType": "ai_expert_paper_coupon",
+                        "price": {
+                            "active": "38",
+                            "default": "57",
+                            "linePrice": "95"
+                        },
+                        "serviceDesc": {
+                            "active": "38元畅翻论文摘要",
+                            "default": "57元畅翻论文摘要"
+                        },
+                        "startTime": "2025-03-10 00:00:00",
+                        "title": "论文摘要翻译单篇券"
+                    },
+                    "motherTongueLevelConfig": {
+                        "discount": 0.75,
+                        "endTime": "2025-04-01 00:00:00",
+                        "startTime": "2025-03-10 00:00:00"
+                    },
+                    "wordCountPKs": [
+                        {
+                            "desc": "赠300字（价值57元）",
+                            "name": "5000字",
+                            "payType": "refuel_ai_expert_char_5k",
+                            "price": "950",
+                            "wordCount": "5000"
+                        },
+                        {
+                            "desc": "赠1000字（价值190元）",
+                            "name": "1万字",
+                            "payType": "refuel_ai_expert_char_10k",
+                            "price": "1900",
+                            "wordCount": "10000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "logid": "181233533",
+    "extra": "jyqSQkRh1/OQg3BIdJ75hG/KY4Tw8G/S8eQmKlG0HWM="
+}
+
+2025-04-02 15:08:05.221 | INFO | status_code: 200, response_time(ms): 689.9 ms, response_length: 0 bytes
+2025-04-02 15:08:05.222 | DEBUG | ====== response details ======
+status_code: 200
+headers: {
+    "Content-Length": "3166",
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 02 Apr 2025 07:08:05 GMT"
+}
+body: {
+    "errno": 0,
+    "errmsg": "",
+    "data": {
+        "items": [
+            {
+                "id": 621,
+                "value": []
+            },
+            {
+                "id": 272,
+                "value": {
+                    "appData": {
+                        "dataLeft": "100,000,000+ 次下载",
+                        "dataRight": "300,000+ 5星好评"
+                    },
+                    "appFunc": "不仅仅是翻译！",
+                    "appQr": "https://fanyiapp.cdn.bcebos.com/cms/image/8a3076b46fdcced0fd12efc9b417059e.png",
+                    "appText": "App Store及各大手机应用商店搜索“百度翻译”均可下载",
+                    "appTitle": "百度翻译APP 10.0",
+                    "appVersion": "12.1.8",
+                    "btnLink": "",
+                    "btnText": "我知道了",
+                    "cmsList": [
+                        {
+                            "bgMaskColor": "rgba(0, 0, 0, 0.6)",
+                            "end_time": "2025-03-31 23:59:59",
+                            "imgUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/1abf8c3956cecc5b3f410a434920679c.png",
+                            "imgwidth": 600,
+                            "maxCount": "3",
+                            "start_time": "2025-03-13 00:00:00",
+                            "type": 1,
+                            "urlLink": "https://fanyi.baidu.com/mtpe-individual/paperActivity2025#/",
+                            "version": "2.1"
+                        },
+                        {
+                            "bgMaskColor": "rgba(0, 0, 0, 0.6)",
+                            "end_time": "2024-12-20 23:59:59",
+                            "imgUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/ed04d084716a73b24d57d1b11300744e.png",
+                            "imgwidth": 600,
+                            "maxCount": "10",
+                            "start_time": "2024-12-09 10:00:00",
+                            "type": 2,
+                            "urlLink": "https://fanyi-app.baidu.com/static/react-activity/page/schoolbegins2024.html",
+                            "version": "1.2"
+                        }
+                    ],
+                    "desc": [
+                        "百度翻译svip ",
+                        "酷我vip",
+                        "百度网盘vip"
+                    ],
+                    "end_time": "2022-03-31 23:59:59",
+                    "expertDate": {
+                        "content": "春节不打烊，服务正常接单！1月28-31日可放心下单，2月1日起统一处理。极速交付，品质如初 ！",
+                        "end_time": "2025-01-31 23:59:59",
+                        "start_time": "2025-01-28 00:00:00"
+                    },
+                    "imgSrc": [
+                        "https://fanyiapp.cdn.bcebos.com/cms/image/29fc26ebd595ee7eefe996250444c045.png"
+                    ],
+                    "isShow": "0",
+                    "recordList": [
+                        {
+                            "content": "「年终回馈」大礼包       点此可兑换全部权益",
+                            "end_time": "2024-12-27 23:59:59",
+                            "start_time": "2024-12-20 14:00:00",
+                            "type": 1,
+                            "urlLink": "https://fanyi-app.baidu.com/static/react-activity/page/schoolbegins2024.html#/"
+                        }
+                    ],
+                    "relatedLowFlow": "",
+                    "start_time": "2022-03-13 11:00:00",
+                    "title": [
+                        " AI 翻译",
+                        "尝鲜体验"
+                    ],
+                    "v3BgMaskColor": "rgba(0, 0, 0, 0.6)",
+                    "v3ImgUrl": "https://fanyiapp.cdn.bcebos.com/cms/image/1abf8c3956cecc5b3f410a434920679c.png",
+                    "v3ImgUrlLink": "https://fanyi.baidu.com/mtpe-individual/paperActivity2025#/ ",
+                    "v3Imgwidth": "624px",
+                    "version": 4
+                }
+            },
+            {
+                "id": 152,
+                "value": []
+            },
+            {
+                "id": 629,
+                "value": []
+            },
+            {
+                "id": 663,
+                "value": []
+            },
+            {
+                "id": 690,
+                "value": {
+                    "expertPaperCouponConfig": {
+                        "descFrText": {
+                            "active": "38元畅翻论文摘要",
+                            "default": "57元畅翻论文摘要"
+                        },
+                        "descFrfile": {
+                            "active": "38元畅翻论文摘要 试试AI+人工翻译"
+                        },
+                        "endTime": "2025-04-01 00:00:00",
+                        "payType": "ai_expert_paper_coupon",
+                        "price": {
+                            "active": "38",
+                            "default": "57",
+                            "linePrice": "95"
+                        },
+                        "serviceDesc": {
+                            "active": "38元畅翻论文摘要",
+                            "default": "57元畅翻论文摘要"
+                        },
+                        "startTime": "2025-03-10 00:00:00",
+                        "title": "论文摘要翻译单篇券"
+                    },
+                    "motherTongueLevelConfig": {
+                        "discount": 0.75,
+                        "endTime": "2025-04-01 00:00:00",
+                        "startTime": "2025-03-10 00:00:00"
+                    },
+                    "wordCountPKs": [
+                        {
+                            "desc": "赠300字（价值57元）",
+                            "name": "5000字",
+                            "payType": "refuel_ai_expert_char_5k",
+                            "price": "950",
+                            "wordCount": "5000"
+                        },
+                        {
+                            "desc": "赠1000字（价值190元）",
+                            "name": "1万字",
+                            "payType": "refuel_ai_expert_char_10k",
+                            "price": "1900",
+                            "wordCount": "10000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "logid": "181233533",
+    "extra": "jyqSQkRh1/OQg3BIdJ75hG/KY4Tw8G/S8eQmKlG0HWM="
+}
+
+2025-04-02 15:08:05.222 | INFO | assert status_code equal 200(int)	==> pass
+2025-04-02 15:08:05.223 | INFO | assert headers."Content-Type" equal application/json; charset=utf-8(str)	==> pass
+2025-04-02 15:08:05.224 | INFO | assert body.errno equal 0(int)	==> pass
+2025-04-02 15:08:05.224 | INFO | assert body.errmsg equal (str)	==> pass
+2025-04-02 15:08:05.225 | INFO | run step end: /ait/config/cms/list <<<<<<
+
+2025-04-02 15:08:05.225 | INFO | generate testcase log: C:\Users\lxd\PycharmProjects\pythonProject\logs\04119154-7d26-4089-a030-137f396e75a9.run.log
