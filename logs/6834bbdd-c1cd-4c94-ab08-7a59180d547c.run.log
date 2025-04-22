@@ -1,0 +1,118 @@
+2025-04-21 17:20:11.930 | INFO | run step begin: movie_search >>>>>>
+2025-04-21 17:20:11.931 | DEBUG | ====== request details ======
+url: https://search.douban.com/movie/subject_search
+method: GET
+params: {
+    "cat": "1002",
+    "search_text": "liudehua"
+}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Microsoft Edge\";v=\"134\"",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "HRUN-Request-ID": "HRUN-6834bbdd-c1cd-4c94-ab08-7a59180d547c-211931"
+}
+json: None
+
+2025-04-21 17:20:12.513 | DEBUG | client IP: 192.168.3.240, Port: 54214
+2025-04-21 17:20:12.513 | DEBUG | server IP: 81.70.124.99, Port: 443
+2025-04-21 17:20:12.513 | DEBUG | 
+================== request details ==================
+method   : MethodEnum.GET
+url      : https://search.douban.com/movie/subject_search?cat=1002&search_text=liudehua
+headers  : {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Microsoft Edge\";v=\"134\"",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "HRUN-Request-ID": "HRUN-6834bbdd-c1cd-4c94-ab08-7a59180d547c-211931"
+}
+cookies  : {}
+body     : None
+
+2025-04-21 17:20:12.514 | DEBUG | 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Mon, 21 Apr 2025 09:20:12 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Keep-Alive": "timeout=30",
+    "Expires": "Sun, 1 Jan 2006 01:00:00 GMT",
+    "Pragma": "no-cache",
+    "Cache-Control": "must-revalidate, no-cache, private",
+    "X-Xss-Protection": "1; mode=block",
+    "X-Douban-Mobileapp": "0",
+    "X-DAE-App": "search",
+    "X-DAE-Instance": "default",
+    "Set-Cookie": "bid=ardrbPrqRas; Expires=Tue, 21-Apr-26 09:20:12 GMT; Domain=.douban.com; Path=/",
+    "X-DOUBAN-NEWBID": "ardrbPrqRas",
+    "Server": "dae",
+    "Strict-Transport-Security": "max-age=15552000",
+    "X-Content-Type-Options": "nosniff",
+    "Content-Encoding": "br"
+}
+cookies  : {
+    "bid": "ardrbPrqRas"
+}
+encoding : utf-8
+content_type : text/html; charset=utf-8
+body     : 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="edge" />
+    <meta name=¡°renderer¡± content=¡°webkit¡±>
+    <meta name="referrer" content="always">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://img1.doubanio.com/favicon.ico" type="image/x-icon">
+    <link rel="search" type="application/opensearchdescription+xml" title="¶¹°êËÑË÷" href="/opensearch?source=movie">
+    <title>liu ... OMITTED 17152 CHARACTORS ...
+
+2025-04-21 17:20:12.514 | INFO | status_code: 200, response_time(ms): 580.68 ms, response_length: 0 bytes
+2025-04-21 17:20:12.514 | DEBUG | ====== response details ======
+status_code: 200
+headers: {
+    "Date": "Mon, 21 Apr 2025 09:20:12 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Keep-Alive": "timeout=30",
+    "Expires": "Sun, 1 Jan 2006 01:00:00 GMT",
+    "Pragma": "no-cache",
+    "Cache-Control": "must-revalidate, no-cache, private",
+    "X-Xss-Protection": "1; mode=block",
+    "X-Douban-Mobileapp": "0",
+    "X-DAE-App": "search",
+    "X-DAE-Instance": "default",
+    "Set-Cookie": "bid=ardrbPrqRas; Expires=Tue, 21-Apr-26 09:20:12 GMT; Domain=.douban.com; Path=/",
+    "X-DOUBAN-NEWBID": "ardrbPrqRas",
+    "Server": "dae",
+    "Strict-Transport-Security": "max-age=15552000",
+    "X-Content-Type-Options": "nosniff",
+    "Content-Encoding": "br"
+}
+body: b'\n<!DOCTYPE html>\n<html lang="en">\n  <head>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="edge" />\n    <meta name=\xe2\x80\x9crenderer\xe2\x80\x9d content=\xe2\x80\x9cwebkit\xe2\x80\x9d>\n    <meta name="referrer" content="always">\n    <meta name="viewport" content="width=device-width, initial-scale=1">\n    <link rel="shortcut icon" href="https://img1.doubanio.com/favicon.ico" type="image/x-icon">\n    <link rel="search" type="application/opensearchdescription+xml" title="\xe8\xb1\x86\xe7\x93\xa3\xe6\x90\x9c\xe7\xb4\xa2" href="/opensearch?source=movie" ... OMITTED 17469 CHARACTORS ...'
+
+2025-04-21 17:20:12.518 | INFO | assert status_code equal 200(int)	==> pass
+2025-04-21 17:20:12.518 | ERROR | assert headers."Content-Type" equal text/html(str)	==> fail
+check_item: headers."Content-Type"
+check_value: text/html; charset=utf-8(str)
+assert_method: equal
+expect_value: text/html(str)
+2025-04-21 17:20:12.519 | INFO | generate testcase log: C:\Users\lxd\PycharmProjects\pythonProject\logs\6834bbdd-c1cd-4c94-ab08-7a59180d547c.run.log

@@ -1,14 +1,14 @@
 config:
-    name: testcase description
+    name: uitest description
     variables: {}
-    base_url: https://fanyi.baidu.com
 teststeps:
--   name: baidufanyi
+-   name: movie_search
     request:
         headers:
-            Sec-Fetch-Dest: empty
-            Sec-Fetch-Mode: cors
+            Sec-Fetch-Dest: document
+            Sec-Fetch-Mode: navigate
             Sec-Fetch-Site: same-origin
+            Sec-Fetch-User: ?1
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
                 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
             sec-ch-ua: '"Chromium";v="134", "Not:A-Brand";v="24", "Microsoft Edge";v="134"'
@@ -16,20 +16,13 @@ teststeps:
             sec-ch-ua-platform: '"Windows"'
         method: GET
         params:
-            date: 1743576063699?_=1743576063699
-            ids: 621,479,272,276,152,629,650,663,689,690
-        url: /ait/config/cms/list
+            cat: '1002'
+            search_text: liudehua
+        url: https://search.douban.com/movie/subject_search
     validate:
     -   eq:
         - status_code
         - 200
     -   eq:
         - headers.Content-Type
-        - application/json; charset=utf-8
-    -   eq:
-        - content.errno
-        - 0
-    -   eq:
-        - content.errmsg
-        - ''
-
+        - text/html

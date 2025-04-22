@@ -1,5 +1,5 @@
 config:
-    name: testcase description
+    name: uitest description
     variables: {}
     base_url: https://fanyi.baidu.com
 teststeps:
